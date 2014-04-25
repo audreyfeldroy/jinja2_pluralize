@@ -25,7 +25,7 @@ requirements = [
 setup(
     name='jinja2_pluralize',
     version='0.1.0',
-    description="Jinja2 pluralize filter, adapted from Django's pluralize filter.",
+    description="Jinja2 pluralize filters.",
     long_description=readme + '\n\n' + history,
     author='Audrey Roy',
     author_email='audreyr@gmail.com',
@@ -38,7 +38,7 @@ setup(
     install_requires=requirements,
     license="BSD",
     zip_safe=False,
-    keywords='jinja2_pluralize',
+    keywords='Jinja2, filter, pluralize, Django, inflect',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
