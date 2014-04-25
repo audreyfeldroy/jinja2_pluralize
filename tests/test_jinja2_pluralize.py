@@ -12,7 +12,7 @@ import unittest
 
 from jinja2 import Environment
 
-from jinja2_pluralize.jinja2_pluralize import pluralize, pluralize_dj
+from jinja2_pluralize import pluralize, pluralize_dj
 
 
 class TestPluralize(unittest.TestCase):
