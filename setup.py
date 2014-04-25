@@ -24,8 +24,7 @@ setup(
     long_description=readme + '\n\n' + history,
     author='Audrey Roy',
     author_email='audreyr@gmail.com',
-    url='https://github.com/audreyr'
-        '/jinja2_pluralize',
+    url='https://github.com/audreyr/jinja2_pluralize',
     packages=[
         'jinja2_pluralize',
     ],
