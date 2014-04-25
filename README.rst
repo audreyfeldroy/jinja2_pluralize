@@ -12,7 +12,7 @@ Jinja2 Pluralize
         :target: https://pypi.python.org/pypi/jinja2_pluralize
 
 
-Jinja2 pluralize filter, adapted from Django's pluralize filter.
+Jinja2 pluralize filters.
 
 * Free software: BSD license
 * Documentation: http://jinja2_pluralize.rtfd.org.
@@ -20,21 +20,32 @@ Jinja2 pluralize filter, adapted from Django's pluralize filter.
 Features
 --------
 
-* Super-lightweight, for when you don't want to require Django as a dependency.
+1. Simple pluralize filter based on inflect.py. For example, this renders as `geese`:
+
+.. code-block:: jinja2
+
+    {{ 'goose'|pluralize }}
+
+2. Django-style pluralize filter. Works as described in the `Django docs`_. For example, this renders as `votes`:
+
+.. code-block:: jinja2
+
+    vote{{ 0|pluralize }}
+
+.. _Django docs: https://docs.djangoproject.com/en/dev/ref/templates/builtins/#pluralize
 
 Usage
 -----
-
-See https://docs.djangoproject.com/en/dev/ref/templates/builtins/#pluralize
 
 To use it with Jinja2, update the `filters` dict on the environment like this:
 
 .. code-block:: python
 
     from jinja2 import Environment
-    from jinja2_pluralize import pluralize
+    from jinja2_pluralize import pluralize_dj
 
     env = Environment()
-    env.filters['pluralize'] = pluralize
+    env.filters['pluralize'] = pluralize_dj
     tmpl = env.from_string('vote{{ 0|pluralize }}')
     assert tmpl.render() == 'votes'
+
