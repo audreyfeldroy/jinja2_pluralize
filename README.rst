@@ -20,4 +20,21 @@ Jinja2 pluralize filter, adapted from Django's pluralize filter.
 Features
 --------
 
-* TODO
+* Super-lightweight, for when you don't want to require Django as a dependency.
+
+Usage
+-----
+
+See https://docs.djangoproject.com/en/dev/ref/templates/builtins/#pluralize
+
+To use it with Jinja2, update the `filters` dict on the environment like this:
+
+.. code-block:: python
+
+    from jinja2 import Environment
+    from jinja2_pluralize import pluralize
+
+    env = Environment()
+    env.filters['pluralize'] = pluralize
+    tmpl = env.from_string('vote{{ 0|pluralize }}')
+    assert tmpl.render() == 'votes'
