@@ -5,8 +5,18 @@ __author__ = 'Audrey Roy'
 __email__ = 'audreyr@gmail.com'
 __version__ = '0.1.0'
 
+import inflect
 
-def pluralize(value, arg='s'):
+
+def pluralize(word):
+    """
+    Given a word, return the plural form.
+    """
+    p = inflect.engine()
+    return p.plural(word)
+
+
+def pluralize_dj(value, arg='s'):
     """
     Adapted from django.template.defaultfilters:
     https://github.com/django/django/blob/master/django/template/defaultfilters.py
