@@ -47,6 +47,9 @@ docs:
 	$(MAKE) -C docs html
 	open docs/_build/html/index.html
 
+register:
+	python setup.py register
+
 release: clean
 	python setup.py sdist upload
 	python setup.py bdist_wheel upload
