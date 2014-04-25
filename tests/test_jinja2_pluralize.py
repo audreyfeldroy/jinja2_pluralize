@@ -12,7 +12,7 @@ import unittest
 
 from jinja2 import Environment
 
-from jinja2_pluralize import pluralize, pluralize_dj
+from jinja2_pluralize.jinja2_pluralize import pluralize, pluralize_dj
 
 
 class TestPluralize(unittest.TestCase):
@@ -29,7 +29,7 @@ class TestPluralize(unittest.TestCase):
         self.assertEqual(pluralize('candy'), 'candies')
         self.assertEqual(pluralize('goose'), 'geese')
         self.assertEqual(pluralize('Moose'), 'Moose')
-
+    
     def test_pluralize_as_filter(self):
         """ Tests pluralize as a Jinja2 filter. """
         env = Environment()
@@ -38,7 +38,7 @@ class TestPluralize(unittest.TestCase):
         assert tmpl.render() == 'votes'
         tmpl = env.from_string("{{ 'goose'|pluralize }}")
         assert tmpl.render() == 'geese'
-
+    
     def test_pluralize_dj(self):
         """ 
         Tests pluralize_dj() as a Python function.
@@ -57,7 +57,7 @@ class TestPluralize(unittest.TestCase):
         self.assertEqual(pluralize_dj(0, 'y,ies'), 'ies')
         self.assertEqual(pluralize_dj(2, 'y,ies'), 'ies')
         self.assertEqual(pluralize_dj(0, 'y,ies,error'), '')
-
+    
     def test_pluralize_dj_as_filter(self):
         """ Tests pluralize_dj as a Jinja2 filter. """
         env = Environment()

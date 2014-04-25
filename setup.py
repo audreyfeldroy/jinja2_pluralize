@@ -17,6 +17,11 @@ if sys.argv[-1] == 'publish':
 readme = open('README.rst').read()
 history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
+requirements = [
+    'jinja2>=2.4',
+    'inflect>=0.2.4',
+]
+
 setup(
     name='jinja2_pluralize',
     version='0.1.0',
@@ -28,11 +33,9 @@ setup(
     packages=[
         'jinja2_pluralize',
     ],
-    package_dir={'jinja2_pluralize':
-                 'jinja2_pluralize'},
+    package_dir={'jinja2_pluralize': 'jinja2_pluralize'},
     include_package_data=True,
-    install_requires=[
-    ],
+    install_requires=requirements,
     license="BSD",
     zip_safe=False,
     keywords='jinja2_pluralize',
