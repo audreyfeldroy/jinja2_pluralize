@@ -10,4 +10,6 @@ Development Lead
 Contributors
 ------------
 
-None yet. Why not be the first?
+* David Shea (`@dashea`_)
+
+.. _`@dashea`: https://github.com/dashea
