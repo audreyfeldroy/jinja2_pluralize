@@ -8,9 +8,6 @@ Jinja2 Pluralize
 .. image:: https://travis-ci.org/audreyr/jinja2_pluralize.png?branch=master
         :target: https://travis-ci.org/audreyr/jinja2_pluralize
 
-.. image:: https://pypip.in/d/jinja2_pluralize/badge.png
-        :target: https://pypi.python.org/pypi/jinja2_pluralize
-
 
 Jinja2 pluralize filters.
 
