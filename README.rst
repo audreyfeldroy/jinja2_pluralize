@@ -2,8 +2,8 @@
 Jinja2 Pluralize
 ===============================
 
-.. image:: https://badge.fury.io/py/jinja2_pluralize.png
-    :target: http://badge.fury.io/py/jinja2_pluralize
+.. image:: https://img.shields.io/pypi/v/jinja2_pluralize.svg?style=flat-square
+        :target: https://pypi.python.org/pypi/jinja2_pluralize
     
 .. image:: https://travis-ci.org/audreyr/jinja2_pluralize.svg?branch=master
         :target: https://travis-ci.org/audreyr/jinja2_pluralize
