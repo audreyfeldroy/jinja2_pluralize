@@ -8,6 +8,8 @@ Jinja2 Pluralize
 .. image:: https://travis-ci.org/audreyr/jinja2_pluralize.png?branch=master
         :target: https://travis-ci.org/audreyr/jinja2_pluralize
 
+.. image:: https://api.codacy.com/project/badge/eb497c487012455688a62383afccccb7
+    :target: https://www.codacy.com/app/aroy/jinja2_pluralize
 
 Jinja2 pluralize filters.
 
