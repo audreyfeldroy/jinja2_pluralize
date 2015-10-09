@@ -19,17 +19,17 @@ Features
 
 1. Simple pluralize filter based on inflect.py. For example, this renders as `geese`:
 
-.. code-block:: jinja2
+.. code-block:: jinja
 
     {{ 'goose'|pluralize }}
 
 2. Django-style pluralize filter. Works as described in the `Django docs`_. For example, this renders as `votes`:
 
-.. code-block:: jinja2
+.. code-block:: jinja
 
     vote{{ 0|pluralize }}
 
-.. _Django docs: https://docs.djangoproject.com/en/dev/ref/templates/builtins/#pluralize
+.. _`Django docs`: https://docs.djangoproject.com/en/dev/ref/templates/builtins/#pluralize
 
 Usage
 -----
