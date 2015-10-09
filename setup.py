@@ -24,8 +24,8 @@ setup(
     version='0.2.1',
     description="Jinja2 pluralize filters.",
     long_description=readme + '\n\n' + history,
-    author='Audrey Roy',
-    author_email='audreyr@gmail.com',
+    author='Audrey Roy Greenfeld',
+    author_email='aroy@alum.mit.edu',
     url='https://github.com/audreyr/jinja2_pluralize',
     packages=[
         'jinja2_pluralize',
@@ -37,7 +37,7 @@ setup(
     zip_safe=False,
     keywords='Jinja2, filter, pluralize, Django, inflect',
     classifiers=[
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
         'Natural Language :: English',
@@ -46,6 +46,8 @@ setup(
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.3',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
     ],
     test_suite='tests',
 )
