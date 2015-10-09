@@ -5,7 +5,7 @@ Jinja2 Pluralize
 .. image:: https://badge.fury.io/py/jinja2_pluralize.png
     :target: http://badge.fury.io/py/jinja2_pluralize
     
-.. image:: https://travis-ci.org/audreyr/jinja2_pluralize.png?branch=master
+.. image:: https://travis-ci.org/audreyr/jinja2_pluralize.svg?branch=master
         :target: https://travis-ci.org/audreyr/jinja2_pluralize
 
 .. image:: https://api.codacy.com/project/badge/eb497c487012455688a62383afccccb7
@@ -14,7 +14,7 @@ Jinja2 Pluralize
 Jinja2 pluralize filters.
 
 * Free software: BSD license
-* Documentation: http://jinja2_pluralize.rtfd.org.
+* Documentation: http://jinja2-pluralize.readthedocs.org
 
 Features
 --------
