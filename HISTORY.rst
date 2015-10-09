@@ -3,6 +3,14 @@
 History
 -------
 
+0.3.0 (2015-10-09)
+------------------
+
+* Fix RST formatting on PyPI.
+* Stable status.
+* Test on Python 3.4 and 3.5.
+* Add more badges to README.
+
 0.2.1 (2014-07-09)
 --------------------
 

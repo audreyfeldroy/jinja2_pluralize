@@ -21,7 +21,7 @@ requirements = [
 
 setup(
     name='jinja2_pluralize',
-    version='0.2.1',
+    version='0.3.0',
     description="Jinja2 pluralize filters.",
     long_description=readme + '\n\n' + history,
     author='Audrey Roy Greenfeld',
