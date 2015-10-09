@@ -5,7 +5,7 @@ Jinja2 Pluralize
 .. image:: https://img.shields.io/pypi/v/jinja2_pluralize.svg?style=flat
         :target: https://pypi.python.org/pypi/jinja2_pluralize
     
-.. image:: https://travis-ci.org/audreyr/jinja2_pluralize.svg?branch=master
+.. image:: https://img.shields.io/travis/audreyr/jinja2_pluralize.svg
         :target: https://travis-ci.org/audreyr/jinja2_pluralize
 
 .. image:: https://api.codacy.com/project/badge/eb497c487012455688a62383afccccb7
