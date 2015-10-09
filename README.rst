@@ -11,9 +11,9 @@ Jinja2 Pluralize
 .. image:: https://api.codacy.com/project/badge/eb497c487012455688a62383afccccb7
     :target: https://www.codacy.com/app/aroy/jinja2_pluralize
 
-.. image:: https://img.shields.io/pypi/pypi/pyversions/jinja2_pluralize.svg?style=flat
+.. image:: https://img.shields.io/pypi/pyversions/jinja2_pluralize.svg?style=flat
 
-.. image:: https://img.shields.io/pypi/pypi/status/jinja2_pluralize.svg?style=flat
+.. image:: https://img.shields.io/pypi/status/jinja2_pluralize.svg?style=flat
 
 Jinja2 pluralize filters.
 
