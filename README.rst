@@ -18,7 +18,7 @@ Jinja2 Pluralize
 Jinja2 pluralize filters.
 
 * Free software: BSD license
-* Documentation: http://jinja2-pluralize.readthedocs.org
+* Documentation: https://jinja2-pluralize.readthedocs.io
 
 Features
 --------
